@@ -5,10 +5,10 @@
 
 [app]
 
- (str) Title of your application
+#(str) Title of your application
 title = StarHop
 
- (str) Package name
+#(str) Package name
 package.name = starhop
 
 # (str) Package domain (needed for android/ios packaging)

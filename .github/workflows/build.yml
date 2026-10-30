@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: "3.11"
       - uses: actions/setup-java@v5
-        with:
+        with: python-version:'3.11'
           distribution: temurin
           java-version: "17"
       - name: Install dependencies

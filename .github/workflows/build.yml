@@ -1,3 +1,4 @@
+
       - name: Build APK
         shell: bash
         run: buildozer android debug 2>&1 | tee build.log
